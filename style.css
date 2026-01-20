@@ -1,0 +1,113 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #f8e7c1 0%, #e6d3b3 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    overflow-y: auto;
+}
+html {
+    overflow-y: auto;
+}
+
+.showcase-card {
+    background: #fffbe9;
+    border-radius: 28px;
+    box-shadow: 0 4px 32px rgba(191,167,106,0.10);
+    padding: 32px 0 0 0;
+    width: 100%;
+    max-width: 420px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #bfa76a;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.profile-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    border: 4px solid #bfa76a;
+    background: #fff;
+}
+.username {
+    font-size: 1.5rem;
+    color: #bfa76a;
+    margin: 0;
+    font-weight: 700;
+}
+.desc {
+    font-size: 1rem;
+    color: #7a5c1e;
+    margin: 8px 0 0 0;
+}
+.platform-links {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.platform-link {
+    display: flex;
+    align-items: center;
+    background: #f8ecd4;
+    border-radius: 10px;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #7a5c1e;
+    font-size: 1.08rem;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(191,167,106,0.04);
+    transition: background 0.2s, color 0.2s;
+    border: 1px solid #e6d3b3;
+}
+.platform-link:hover {
+    background: #f3e2c0;
+    color: #bfa76a;
+}
+.platform-link img {
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 14px;
+    border: 2px solid #bfa76a;
+    background: #fff;
+}
+.main-btn {
+    display: block;
+    margin: 32px auto 0 auto;
+    padding: 14px 32px;
+    background: #bfa76a;
+    color: #fffbe9;
+    border-radius: 24px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(191,167,106,0.08);
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    transition: background 0.2s, color 0.2s;
+}
+.main-btn:hover {
+    background: #7a5c1e;
+    color: #fffbe9;
+}
+.footer {
+    margin: 32px 0 16px 0;
+    font-size: 0.95rem;
+    color: #7a5c1e;
+    text-align: center;
+}
